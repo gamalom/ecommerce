@@ -1,0 +1,223 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border: 0;
+	font-size: 100%;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	
+
+}
+input{
+	height:auto;
+}
+
+.head_container{
+	width:1200px;
+	margin:auto;
+	height:250px;
+}
+#div_container{	
+	width:1200px;	
+	margin:auto;	
+}
+div{
+	border:0px solid blue;
+}
+.navigation{
+	background-color: gray;
+	
+}
+#nav_ul{
+	list-style-type: none;
+	line-height: 40px;
+
+}
+#nav_ul li{
+	text-decoration: none;
+	display: inline;
+	font-size: 16pt;
+	margin:5px;
+	padding:5px;
+	font-family: Comic Sans Ms;
+}
+#nav_li{
+	color:black;
+}
+#nav_li:hover{
+	font-weight: bolder;
+	color:orange;
+	text-decoration: underline;
+
+}
+#data{
+	
+	
+}
+#form_search{
+	display:inline-block;
+}
+#header{
+	height:200px;
+	width:1200px;
+}
+#banner{
+	float:right;
+	width:850px;	
+	height:auto;
+
+}
+#logo{
+	height:200px;
+	float:left;
+	width:345px;
+}
+#cart_bar{
+	line-height: 40px;
+	height:40px;
+	width:1200px;
+	background-color: black;
+	color:#f6f6ff;
+}
+
+#sidebar{
+	background-color: black;
+	float:left;
+	font-family: comic sans ms;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color:#f6f6ff;
+
+}
+#sidebar ul li{
+	text-align: center;
+	font-size: 16px;
+	margin:10px;
+	padding: 10px;
+}
+.brand{
+	font-weight: bolder;
+	text-decoration: underline;
+	font-family: arial;
+	width:100%;	
+	color:#f6f6ff;
+}
+#brand_ul{
+	list-style-type: none;
+	padding:15px;
+}
+#brand_li{
+	text-decoration: none;
+
+}
+#brand_li a{
+	text-decoration: none;
+	color:#f6f6ff;
+}
+#brand_li a:hover{
+	text-decoration: underline;
+	color:orange;
+}
+#catagories_ul{
+	text-decoration: none;
+}
+#catagories_li a{
+	text-decoration: none;
+	color:#f6f6ff;
+	font-size: 18px;
+
+
+}
+#catagories_li a:hover{
+	text-decoration: underline;
+	color:orange;
+	font-size: 18px;
+
+
+}
+#product_box{
+	height:auto;
+	background:#f6f6ff;	
+	margin-left:155px;
+}
+#product_detail{
+	height:auto;
+	background:#f6f6ff;	
+	margin:10px;
+	padding:10px;
+}
+#image_pro{
+	margin:10px;
+	padding:10px ;
+	height:300px;
+	width:300px;
+}
+#pro_img:hover{
+	box-shadow: 2px 2px 2px 2px;
+
+}
+#div_pro{
+
+text-align: center;	
+border:2px solid blue;
+height:430px;
+margin:5px;
+padding:10px;
+
+
+}
+#detail{
+	padding:10px;	
+}
+#container{
+	width:1200px;		
+	background-color:black;
+}
+#footer{	
+	border:2px solid black;
+	bottom:0px;
+	background-color: gray;
+	
+	}
+	#img_cat{
+		width:400px;
+	}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
